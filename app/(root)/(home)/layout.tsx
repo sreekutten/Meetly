@@ -2,6 +2,16 @@
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
 import React, { ReactNode } from 'react'
+import React, { ReactNode } from 'react'
+
+
+export const metadata: Metadata = {
+  title: "Meetly",
+  description: "Online Meeting Platform",
+  icons : {
+    icon: '/icons/logo.svg'
+  }
+};
 
 const HomeLayout = ( { children}: { children: ReactNode }) => {
   return (
